@@ -1,0 +1,14 @@
+create table Employee
+(
+id int auto_increment primary key,
+firstname VARCHAR(30),
+salary float
+);
+
+
+insert into employee (firstname,salary) values('Sushant',1000);
+insert into employee (firstname,salary) values('Atul',2000);
+insert into employee (firstname,salary) values('Avadhesh',3000);
+insert into employee (firstname,salary) values('Pranav',1000);
+insert into employee (firstname,salary) values('Keshav',2000);
+insert into employee (firstname,salary) values('Shrimat',5000);
